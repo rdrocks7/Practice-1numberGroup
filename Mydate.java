@@ -1,5 +1,5 @@
 package study.hasA;
-
+// CCE exam will be conducted from 29th aug 
 public class Mydate implements Comparable<Mydate> {
 	public int dd, mm, yy;
 	public Mydate (int dd, int mm, int yy)
