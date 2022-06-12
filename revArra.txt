@@ -1,0 +1,70 @@
+int []a1=new int[]{2,3,4,5,6};
+int []a2=new int[]{10,20,30,40,50};
+a3=a1.add(a2);
+sysout(a3);
+
+a4=revrse(a1)
+for(int i=0;i<arr.length;i++)
+sysout(arr[i])
+
+}
+public int[] add(int [] a1,int [] a2)
+{
+     int [] a3=int [];
+     for(int i=0;i<arr.length;i++)
+     {
+	 a3[i]=a1[i]+a2[i];
+	} 
+ 	return a3;
+}
+
+public void reverse(int arr[])
+{  j=arr.length-1
+for(int i=0;i<j;i++)
+{   int temp=arr[i];
+	arr[i]=arr[j];
+      arr[j]=temp;
+     j--;
+}
+
+public void distinct(int arr[])
+{  
+   
+   for(int i=0;i<arr.length;i++)
+    {   
+	 for(int j=0;j<i+1;j++)
+        {
+            if(arr[i]=arr[j])
+			cnt++;
+        }
+    }
+	if(cnt==0)
+	sysout(dsitinct);
+	else
+	sysout(not distinct)
+           
+}
+
+public void distinct(int arr[])
+{  k=0;
+   
+   for(int i=0;i<arr.length;i++)
+    {   
+	 for(int j=0;j<i+1;j++)
+        {
+            if(arr[i]=arr[j])
+			cnt++;
+	       else 
+		     arr[k]=arr[i];
+        }
+    }
+	if(cnt==0)
+	sysout(dsitinct);
+	else
+	sysout(not distinct)
+
+     for(int i=0;i<arr.length;i++)
+	sysout(arr[i])
+}
+
+}
